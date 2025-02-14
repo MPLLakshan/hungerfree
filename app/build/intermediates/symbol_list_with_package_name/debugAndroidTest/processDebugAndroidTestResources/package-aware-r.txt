@@ -1,0 +1,3 @@
+com.irosh.hungerfree.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
