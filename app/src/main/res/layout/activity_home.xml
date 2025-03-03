@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HungerFree - Donate Food"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Food Category"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/category_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/category_vegetable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegetables"/>
+
+        <RadioButton
+            android:id="@+id/category_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meal"/>
+
+        <RadioButton
+            android:id="@+id/category_fruit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fruit"/>
+
+        <RadioButton
+            android:id="@+id/category_dry_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dry Food"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Describe Your Donation"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/description_box"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter details about the food donation..."
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/donate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Donate Food"
+        android:textColor="#212121" />
+</LinearLayout>
